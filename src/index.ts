@@ -12,7 +12,7 @@ app.get('/', (c) => {
     });
   }
 
-  // example.comからサードパーティークッキーを取得
+  // サードパーティークッキーを取得
   // TODO: change image path
   return c.html(`
     <h1>Welcome to hoge.com</h1>
